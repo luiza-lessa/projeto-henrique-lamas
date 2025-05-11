@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to bottom,
+    #FF6A00 0%,       /* Laranja intenso */
+    #A13EC6 30%,      /* Roxo claro */
+    #2E005E 60%,      /* Roxo escuro */
+    #000060 100%      /* Azul escuro */
+  );
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px 23px;
+}
+
+
+.texto{
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    padding: 17px 40px; 
+    color: #0050FF;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1;
+    width: fit-content;
+    height: 50px;
+}
+
