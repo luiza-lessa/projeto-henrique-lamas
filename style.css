@@ -6,8 +6,8 @@ body{
     background: linear-gradient(to bottom,
     #FF6A00 0%,       /* Laranja intenso */
     #A13EC6 30%,      /* Roxo claro */
-    #2E005E 60%,      /* Roxo escuro */
-    #000060 100%      /* Azul escuro */
+    #2E005E 60%,     
+    #000060 100%      
   );
 
 }
