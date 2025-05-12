@@ -4,10 +4,10 @@ body{
     margin: 0;
     height: 100vh;
     background: linear-gradient(to bottom,
-    #FF6A00 0%,       /* Laranja intenso */
-    #A13EC6 30%,      /* Roxo claro */
-    #2E005E 60%,     
-    #000060 100%      
+    #FFA76A,   
+    #B573D1,   
+    #5C3D91,  
+    #1A1A50   
   );
 
 }
