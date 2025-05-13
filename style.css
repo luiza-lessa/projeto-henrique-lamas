@@ -87,10 +87,16 @@ header {
       padding-top: 32px;
 }
 
-.imagem-coluna img,
+.imagem-coluna img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 2000px;
+}
+
 .imagem-coluna2 img {
     max-width: 100%;
     height: auto;
+    border-radius: 50px;
 }
 
 .corte-biografia {
