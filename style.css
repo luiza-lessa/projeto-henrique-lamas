@@ -2,11 +2,11 @@
 
 body{
     margin: 0;
-    height: 100vh;
+    height: 100%;
     background: linear-gradient(to bottom,
     #FFA76A,   
     #B573D1,   
-    #5C3D91,  
+    #8662c4,  
     #1A1A50   
   );
    font-family: 'Poppins', sans-serif;
@@ -46,7 +46,8 @@ header {
     padding: 0 16px;
 }
 
-.image-column {
+.imagem-coluna,
+.imagem-coluna2 {
     flex: 1 1 555px;
     display: flex;
     align-items: center;
@@ -84,4 +85,35 @@ header {
 .coluna-texto {
       flex: 1 1 445px;
       padding-top: 32px;
+}
+
+.imagem-coluna img,
+.imagem-coluna2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.corte-biografia {
+    display: flex;
+    flex: 1 1 100%;
+    justify-content: space-evenly;
+}
+
+.coluna-biografia {
+    flex: 0 0 445px;
+    padding-top: 32px;
+}
+
+.coluna-biografia h2 {
+    font-size: 20px;
+    margin-bottom: 16px;
+    font-weight: bolder;
+}
+
+.coluna-biografia p {
+    list-style-type: none;
+    padding-left: 20px;
+    width: 75%;
+    margin: 0px;
+    padding: 0px;
 }
