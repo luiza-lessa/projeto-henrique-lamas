@@ -123,3 +123,20 @@ header {
     margin: 0px;
     padding: 0px;
 }
+.curiosidades {
+  display: flex;
+  justify-content: space-between; /* espaça os elementos igualmente, inclusive nas bordas */
+  margin-top: 100px;
+}
+
+.curiosidades > div {
+  width: 30%; /* para garantir que cabem 3 com espaço entre */
+  background-color: #f0f0f0; /* só para visualização */
+  color: black;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+#curiosidade1 {
+    margin-left: 20px;
+}
